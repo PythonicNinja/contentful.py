@@ -30,16 +30,16 @@ class PyTest(TestCommand):
         sys.exit(errno)
 
 deps = [
-    'enum34==1.1.1',
-    'requests==2.4.3',
-    'six==1.10.0',
-    'python-dateutil==2.3'
+    'enum34',
+    'requests',
+    'six',
+    'python-dateutil'
 ]
 
 test_deps = [
     'mock',
-    'vcrpy==1.7.4',
-    'pytest==2.6.4'
+    'vcrpy',
+    'pytest'
 ]
 
 with open('README.rst') as f:
